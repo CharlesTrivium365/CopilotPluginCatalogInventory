@@ -1,0 +1,29 @@
+# Generated reports and exports
+*.html
+*.json
+*.csv
+*.log
+*.transcript.txt
+
+# PowerShell artifacts
+*.ps1xml.bak
+TestResults/
+coverage.xml
+out/
+output/
+
+# Secrets and local settings
+*.pfx
+*.cer
+*.pem
+*.key
+.env
+local.settings.json
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
